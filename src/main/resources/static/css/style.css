@@ -1,0 +1,774 @@
+html, body {
+	overflow-x: hidden;
+}
+/* это чтобы убрать скролл который появлялся внизу страницы */
+/* а это чтобы убрать декор для ссылок */
+a {
+	text-decoration: none;
+}
+/* это для всех фреймов */
+.container {
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+/* 1 фрейм */
+.intro {
+	width: 100%;
+	height: 100vh;
+	background: url("/images/Шапка.png") center no-repeat;
+	background-size: cover;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+
+.aboutus {
+	font-family: 'Ysabeau Office';
+	font-size: 16px;
+	color: #fffcee;
+	margin-left: 60px;
+	transition: 1s;
+}
+
+.aboutus:hover {
+	color: #EDD05F;
+}
+
+
+.FAQs {
+	font-family: 'Ysabeau Office';
+	font-size: 16px;
+	color: #fffcee;
+	margin-left: 55px;
+	margin-right: 55px;
+	transition: 1s;
+}
+
+.FAQs:hover {
+	color: #EDD05F;
+}
+
+.contact{
+	font-family: 'Ysabeau Office';
+	font-size: 16px;
+	color: #fffcee;
+	transition: 1s;
+}
+
+.contact:hover {
+	color: #EDD05F;
+}
+
+.name {
+	font-family: 'Allura';
+	font-size: 50px;
+	color: #fffcee;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+.reg {
+	font-family: 'Ysabeau Office';
+	font-size: 16px;
+	background-color: transparent;
+	border-radius: 15px;
+	border: 1px solid #fffcee;
+	color: #fffcee;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-right: 10px;
+}
+
+.reg:hover {
+	font-family: 'Ysabeau Office';
+	font-size: 16px;
+	background-color: #fffcee;
+	border-radius: 15px;
+	border: 1px solid #fffcee;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-right: 10px;
+	transition: 0.5s;
+}
+
+.enter {
+	font-family: 'Ysabeau Office';
+	font-size: 16px;
+	color: black;
+	background-color: #fffcee;
+	border-radius: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.enter:hover{
+    font-family: 'Ysabeau Office';
+	font-size: 16px;
+	color: black;
+	background-color: #EDD05F;
+	border-radius: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	transition: 0.5s;
+}
+
+.about1 {
+	font-size: 80px;
+	font-family: 'Ysabeau Office';
+	color: #fffcee;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 160px;
+}
+
+.about2 {
+	font-size: 26px;
+	font-family: 'Ysabeau Office';
+	color: #fffcee;
+	text-align: center;
+	letter-spacing: 1.5px;
+	line-height: 145%;
+	margin-top: -50px;
+}
+
+.more {
+	font-size: 24px;
+	font-family: 'Ysabeau Office';
+	color: #fffcee;
+	background-color: transparent;
+	text-align: center;
+	border: 1px solid #fffcee;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 20px;
+	position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	transition: 0.5s;
+}
+
+.more:hover {
+	color: black;
+	background-color: #fffcee;
+}
+/* 2 фрейм */
+.introsecond {
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+	background-color: #fffcee;
+	background-size: cover;
+}
+
+.cars {
+	width: 650px;
+	height: 100vh;
+	position: absolute;
+	right: 0px;
+}
+
+.effect {
+	font-size: 20px;
+	font-family: 'Poiret One';
+	color: black;
+	padding-top: 120px;
+	padding-left: 30px;
+	margin-top: 0%;
+	letter-spacing: 5px;
+}
+
+.essay {
+	font-size: 60px;
+	font-family: 'Ysabeau Office';
+	color: black;
+	margin-top: 10px;
+	padding-left: 30px;
+	font-weight: bold;
+	line-height: 120%;
+}
+
+.twotypes1 {
+	list-style-type: none;
+	font-family: 'Ysabeau Office';
+	color: black;
+	font-weight: bold;
+	font-size: 28px;
+	padding-left: 30px;
+	display: inline-block;
+	white-space: normal;	
+	display: inline-block;
+	padding-top: 45px;
+}
+
+.objectstwo1 {
+	list-style-type: none;
+	font-family: 'Ysabeau Office';
+	color: black;
+	font-size: 22px;
+	letter-spacing: 1px;
+	line-height: 145%;
+	padding-left: 32px;
+	padding-top: 10px;
+}
+
+.twotypes2 {
+	list-style-type: none;
+	font-family: 'Ysabeau Office';
+	color: black;
+	font-weight: bold;
+	font-size: 28px;
+	margin-left: 60px;
+	padding-top: 45px;
+}
+
+.objectstwo2 {
+	list-style-type: none;
+	font-family: 'Ysabeau Office';
+	color: black;
+	font-size: 22px;
+	letter-spacing: 1px;
+	line-height: 145%;
+	padding-left: 1px;
+	margin-left: 60px;
+	padding-top: 10px;
+}
+/* 3 фрейм */
+.introthird {
+	width: 100%;
+	height: 190px;
+	margin: 0 auto;
+	background-color: #EDD05F;
+	background-size: cover;
+	position: relative;
+}
+  
+.lyrics {
+	font-family: 'Ysabeau Office';
+	color: black;
+	font-size: 26px;
+	letter-spacing: 1px;
+	line-height: 145%;
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 5px;
+}
+/* 4 фрейм */
+.introfourth {
+	width: 100%;
+	height: 310px;
+	margin: 0 auto;
+	background-color: #fffcee;
+	background-size: cover;
+}
+
+.dopfnc {
+	position: absolute;
+	text-align: center;
+	top: 1810px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 3;
+}
+
+.first {
+	position: relative;
+	left: 270px;
+	bottom: 30px;
+}
+
+.second {
+	position: relative;
+	bottom: 399px;
+	left: 830px;
+}
+/* 5 фрейм */
+.introfive {
+	width: 100%;
+	height: 760px;
+	margin: 0 auto;
+	background-color: #fffcee;
+	background-size: cover;
+	text-align: center;
+	padding-top: 62.5px;
+}
+/* 6 фрейм */
+.introsix {
+	width: 100%;
+	height: 485px;
+	margin: 0 auto;
+	background-color: #fffcee;
+	background-size: cover;
+	display: flex;
+}
+
+/* 7 фрейм */
+.introseven {
+	width: 100%;
+	height: 500px;
+	background-color: #fffcee;
+	background-size: cover;
+}
+
+.otzivi {
+	font-size: 64px;
+	font-family: 'Poiret One';
+	color: black;
+	padding-top: 30px;
+	padding-left: 30px;
+	letter-spacing: 5px;
+	list-style-type: none;
+}
+	
+.read {
+	font-family: 'Ysabeau Office';
+	font-size: 24px;
+	margin-top: 10px;
+	padding-left: 30px;
+	list-style-type: none;
+	letter-spacing: 1px;
+}
+
+.star {
+	width: 35%;
+	height: 35%; 
+	padding-left: 20px; 
+	padding-top: 70px; 
+	padding-bottom: 10px;
+}
+
+.otziv {
+	padding-left: 30px;
+	list-style-type: none;
+	font-family: 'Ysabeau Office';
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 145%;
+	padding-bottom: 10px;
+}
+
+.imya {
+	list-style-type: none;
+	font-family: 'Ysabeau Office';
+	font-size: 28px;
+	padding-top: 20px;
+	padding-left: 5px;
+}
+
+.exp {
+	position: absolute;
+	list-style-type: none;
+	font-size: 16px; 
+	padding-top: 35px;
+	font-family: 'Ysabeau Office';
+	padding-left: 110px;
+}
+/* 8 фрейм */
+.introeight {
+	width: 100%;
+	height: 100vh;
+	background-color: #fffcee;
+}
+
+.ticket {
+	width: 1150px;
+	height: 600px;
+	background-color: #fffcee;
+	position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	border-radius: 66px;
+	border-top-left-radius: 60px;
+	border-bottom-left-radius: 60px;
+	filter: drop-shadow(0 11px 50px #d3d3d3);
+}
+
+.RayanGosling {
+	height: 600px;
+	float: right;
+}
+
+.segodnya {
+	padding-left: 30px;
+	padding-top: 70px;
+	list-style-type: none;
+	font-family: 'Ysabeau Office';
+	font-size: 48px;
+	letter-spacing: 1px;
+	line-height: 115%;
+	padding-bottom: 10px;
+}
+
+.segodnyareg {
+	font-family: 'Ysabeau Office';
+	font-size: 20px;
+	margin-top: 10px;
+	padding-left: 30px;
+	list-style-type: none;
+	margin-bottom: 70px;
+	letter-spacing: 1px;
+	line-height: 145%;
+}
+
+
+.vvodemail {
+	font-family: 'Ysabeau Office';
+	width: 350px;
+	font-size: 20px;
+	background-color: #fffcee;
+	border-radius: 12px;
+	border: 1px solid black;
+	padding: 15px;
+	margin-right: 10px;
+	margin-left: 30px;
+}
+
+.registrat {
+	font-family: 'Ysabeau Office';
+	font-size: 20px;
+	color: #fffcee;
+	background-color: black;
+	border-radius: 15px;
+	padding: 24px;
+	margin-left: 10px;
+}
+
+.box {
+	margin-left: 30px;
+	margin-top: 10px;
+	width: 28px;
+	height: 28px;
+}
+
+.soglasen {
+	font-family: 'Ysabeau Office';
+	font-size: 14px;
+	color: black;
+	margin-top: 15px;
+	margin-left: 2px;
+}
+
+.firsthr {
+	height: 2px;
+	padding-top: 108px;
+}
+
+.nameticket {
+	font-family: 'Allura';
+	list-style-type: none;
+	font-size: 16px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 101px;
+}
+
+.secondhr {
+	height: 2px;
+	padding-top: 108px;
+}
+
+.thirdhr {
+	width: 151px;
+	height: 2px;
+	padding-top: 108px;
+}
+/* 9 фрейм */
+.intronine {
+	width: 100%;
+	height: auto;
+	background-color: #fffcee;
+}
+
+.quesotv {
+	text-align: center;
+	list-style-type: none;
+	font-size: 64px;
+	font-family: 'Poiret One';
+	color: black;
+	letter-spacing: 5px;
+	padding-top: 30px;
+}
+
+.aboutques {
+	text-align: center;
+	font-family: 'Ysabeau Office';
+	font-size: 24px;
+	list-style-type: none;
+	margin-top: 10px;
+	letter-spacing: 1px;
+	margin-bottom: 60px;
+}
+
+/* Тут плюсик */
+details summary::-webkit-details-marker {
+	display: none
+}  
+
+details summary:before {
+	content: "+";
+  	float: right;
+	font-size: 22px;
+	margin-right: 10px;
+}
+
+details[open] summary:before {
+	content: "-";
+	float: right;
+	font-size: 22px;
+	margin-right: 10px;
+}
+/* Найстроики плюсика закончились */
+
+/* Настройка вопроса, который раскрывает ответ */
+ details>summary {
+	margin-top: 15px;
+	font-family: 'Ysabeau Office';
+	width: 900px;
+	font-size: 22px;
+	background-color: transparent;
+	border-radius: 12px;
+	border: 1px solid black;
+	padding: 20px;
+ }
+
+ details[open]>summary {
+	font-family: 'Ysabeau Office';
+	width: 900px;
+	font-size: 22px;
+	background-color: transparent;
+	border-radius: 12px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border: 1px solid black;
+	padding: 20px;
+ }
+
+/* Настройка вопроса закончилась */
+
+/* Настройка ответа, в классе questions */
+.questions {
+	font-family: 'Ysabeau Office';
+	color: black;
+	letter-spacing: 1px;
+	width: 900px;
+	font-size: 18px;
+	padding: 20px;
+	border-radius: 12px;
+	border: 1px solid black;
+	border-top: 1px solid transparent;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.stayques {
+	list-style-type: none;
+	text-align: center;
+	font-size: 48px;
+	font-family: 'Ysabeau Office', Bold;
+	color: black;
+	letter-spacing: 5px;
+	padding-top: 60px;
+}
+
+.noproblem {
+	list-style-type: none;
+	text-align: center;
+	font-family: 'Ysabeau Office';
+	font-size: 20px;
+	list-style-type: none;
+	margin-top: 10px;
+	letter-spacing: 1px;
+}
+
+.contactbutton {
+	font-family: 'Ysabeau Office';
+	font-size: 24px;
+	background-color: transparent;
+	border-radius: 20px;
+	border: 1px solid black;
+	color: black;
+	padding: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.contactbutton:hover {
+	font-family: 'Ysabeau Office';
+	font-size: 24px;
+	background-color: black;
+	border-radius: 20px;
+	border: 1px solid black;
+	color: #fffcee;
+	padding: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	transition: 0.7s ;
+}
+/* подвал */
+.introten {
+	width: 100%;
+	height: 450px;
+	background-color: black;
+}
+
+.finder1 {
+	color: #fffcee;
+	list-style-type: none;
+	font-size: 20px;
+	font-family: 'Ysabeau Office';
+	margin-left: 70px;
+	letter-spacing: 1px;
+	margin-top: 70px;
+}
+
+.basis1{
+	color: #fffcee;
+	list-style-type: none;
+	font-size: 16px;
+	font-family: 'Ysabeau Office';
+	margin-left: 70px;
+	letter-spacing: 1px;
+	margin-top: 7px;
+}
+
+.finder2 {
+	color: #fffcee;
+	list-style-type: none;
+	font-size: 20px;
+	font-family: 'Ysabeau Office';
+	margin-left: 70px;
+	letter-spacing: 1px;
+	margin-top: 40px;
+}
+
+.basis2 {
+	color: #fffcee;
+	list-style-type: none;
+	font-size: 16px;
+	font-family: 'Ysabeau Office';
+	margin-left: 70px;
+	letter-spacing: 1px;
+	margin-top: 7px;
+	line-height: 125%;
+	margin-bottom: -20px;
+}
+
+.socul{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socli{
+    list-style: none;
+    display: inline-block;
+    font-size: 23px;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.telegram{
+    color: #c72b7e;
+}
+
+.vk{
+    color: #1c9ff1;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.youtube{
+    color: #ff0000;
+	margin-right: 10px;
+}
+
+.tiktok{
+	color: #7117ca;
+}
+
+
+/* #####################  Hover EFFECTS ############################# */
+
+.icon{
+    transition: 0.6s;
+}
+
+li:hover .icon1{
+    transform: rotateY(360deg);
+    text-shadow: 0px 0px 1px #ff0095;
+}
+
+li:hover .icon2{
+    transform: rotateY(360deg);
+    text-shadow: 0px 0px 1px #1c9ff1;
+}
+
+li:hover .icon3{
+    transform: rotateY(360deg);
+    text-shadow: 0px 0px 1px #ff0000;
+}
+
+li:hover .icon4{
+    transform: rotateY(360deg);
+    text-shadow: 0px 0px 1px #7117ca;
+}
+
+.socli{
+    transition: 0.4s;
+    transition-delay: 0.2s;
+}
+
+.namefooter {
+	color:#fffcee;
+	list-style-type: none;
+	font-family: 'Allura';
+	font-size: 36px;
+}
+
+.palka {
+	color:#fffcee;
+	list-style-type: none;
+	font-size: 36px;
+	margin-left: 15px;
+	margin-right: 10px;
+}
+
+.rost {
+	padding-top: 7px;
+	color:#fffcee;
+	list-style-type: none;
+	font-size: 20px;
+	font-family: 'Ysabeau Office';
+}
+
+.mirea {
+	color: #fffcee;
+	list-style-type: none;
+	font-size: 16px;
+	font-family: 'Ysabeau Office';
+	text-align: center;
+	letter-spacing: 1px;
+	margin-top: 15px;
+}
